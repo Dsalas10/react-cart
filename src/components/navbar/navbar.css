@@ -1,0 +1,106 @@
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#666
+}
+
+header .logo i{
+    padding-right: .5rem;
+    color: var(--red);
+}
+
+header .navbar .navbar-item{
+
+    border-left: 1px solid #ccc;
+    margin-right: 16rem;
+}
+header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:#666;
+    text-decoration: none;
+}
+header .navbar  a:hover{
+    color: var(--red);
+    
+}
+#menu-bar {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:#666;
+    border: .1rem solid #666;
+    border-radius: 1rem;
+    padding:.5rem 1.5rem;
+    display: none;
+}
+
+
+header .navbar .navbar-carrito{
+    margin-right: -8rem;
+    border-left: 1px solid #ccc;
+   
+}
+
+
+@media (max-width: 940px) {
+
+    header .navbar .navbar-item{
+
+    border-left: 1px solid #ccc;
+    margin-right: 5rem;
+}
+
+}
+@media(max-width: 768px)
+{
+    header{
+        padding: 1rem 5%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header .logo {
+        font-size: 2rem;
+      }
+    #menu-bar {
+        display: block;
+    }
+    .navbar {
+        position: fixed;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: left 0.3s ease;
+      }
+    .navbar.active {
+          left: 0;
+        }
+       
+    
+      .navbar .navbar-carrito {
+        margin: 1.5rem 0;
+        border-left: none;
+      }
+    
+     
+}
+
+
+  

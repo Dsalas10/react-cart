@@ -1,0 +1,123 @@
+.cart-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-dropdown .cart-icon {
+    position: relative;
+    font-size: 1.5rem;
+    background: #7e1b1b; /* Color de fondo del carrito */
+    border-radius:999px;
+    height: 40px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    color:white;
+}   
+.cart-dropdown .cart-icon:hover{
+   background: #5f0b0bed;
+}
+.cart-icon span{
+    margin-left: 1rem;
+}
+.cart-icon .icon{
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
+}
+.cart-dropdown .cart-count{
+    position: absolute;
+    top: -12px;
+    right: 5px;
+    background-color:  #7e1b1b;
+    color:white;
+    border-radius:50% ;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.cart-dropdown .cart-dropdown-content {
+    display: none;
+    position: absolute;
+    right: -40px;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+}
+.cart-dropdown:hover .cart-dropdown-content {
+    display: block;
+    
+}
+
+.cart-dropdown .cart-items{
+    list-style-type: none;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+  
+}
+.cart-dropdown .cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 2px solid #ccc;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  
+}
+
+.cart-dropdown .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+   
+}
+.cart-dropdown .cart-item-info {
+    display: flex;
+    flex-direction: column;
+    color:#666;
+    margin:10px;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+.cart-dropdown .remove {
+    background: none;
+    cursor: pointer;
+    color: #aaa;
+    display: block;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    text-align: center;
+    border: 4px solid currentColor;
+    border-radius: 50%;
+    margin-right: 10px;
+     line-height: 30px;
+   
+}
+.cart-dropdown .remove:hover{
+    background: #5f0b0bed;
+    color: #fff;
+    
+  }
+.cart-dropdown .cart-footer {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    color: black;
+}
+.cart-dropdown .view-cart-btn, .checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    background-color: #7e1b1b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.cart-dropdown .view-cart-btn:hover, .checkout-btn:hover {
+    background-color: #5f0b0bed;
+}

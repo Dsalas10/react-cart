@@ -1,0 +1,96 @@
+.cart_container {
+  margin-top: 8rem;
+}
+.bordered-col {
+  border-right: 2px solid #ddd;
+}
+.shop-table tr th:nth-child(1){
+  text-align: left;
+  color: #666;
+}
+.shop-table tr th{
+  text-align: center;
+  color: #666;
+
+}
+
+
+.shop-table .cart-item  {
+  padding-top: 1.2rem;
+  text-align: center;
+  vertical-align: middle; /* Alineación vertical al centro */
+}
+.shop-table .cart-item td{
+  padding: 15px 0;
+}
+
+.cart_container a{
+  text-decoration: none;
+}
+button.remove {
+  color: #ccc;
+  display: block;
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 4px solid currentColor;
+  border-radius: 50%;
+}
+button.remove:hover{
+  background: #ff3838;
+  color: #fff;
+}
+tr .product-img{
+  min-width: 60px;
+  max-height: 70px;
+  width: 70px;
+}
+tr img{
+  max-width: 100%;
+  height: auto;
+}
+.btncontrols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.btncontrols input[type="button"], 
+.btncontrols input[type="text"] {
+  width: 40px;
+  height: 40px !important; /* Define una altura específica para ambos inputs */
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+ margin: 0;
+  padding: 0; /* Asegúrate de que el padding sea consistente */
+}
+/* Opcional: Agregar estilos de hover */
+.btncontrols input[type="button"]:hover {
+  background-color: #ddd;
+}
+
+.cart_container .container-total-carrito{
+  margin-left: 4rem !important
+}
+.title-total-carrito{
+  color:#666;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+.cart_container table tr  .label-total-carrito{
+  font-size: 2rem; 
+  color:#666;
+}
+
+td.amount {
+  text-align: right;
+  font-size: 2rem;
+}

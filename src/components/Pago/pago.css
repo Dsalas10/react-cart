@@ -1,0 +1,105 @@
+
+.container-pago{
+    margin-top: 10rem;
+   
+}
+.datos-cliente, .pedido-cliente {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+.datos-cliente .tipo-envio{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+}
+.datos-cliente h3{
+    color:#666;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.tipo-envio, .detalles-facturacion, .informacion-adicional {
+    margin-bottom: 1.5rem;
+}
+.phone-container{
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      width: 100%;
+}
+.phone-container img {
+    width: 30px; /* Ajusta el tamaño de la bandera */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-right: 10px; /* Espacio entre la bandera y el campo de entrada */
+ }
+ .phone-container input[type="text"] {
+    border: none;
+    outline: none;
+    width: 100%; /* Ocupa el espacio restante en el contenedor */
+    padding: 5px;
+    font-size: 1.6rem;
+  }
+  .tipo-envio-select{
+    height: 50px !important;
+  }
+.tipo-envio-select, input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 0.5rem;
+    height: 50px !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.tipo-envio-select option {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.tipo-envio-select, input[type="text"], input[type="email"] {
+        height: 3.8rem;
+        font-size: 1.6rem;
+}
+.informacion-adicional textarea{
+    width: 100%; /* Ajusta el ancho como desees */
+    height: 100px; /* Ajusta la altura como desees */
+    resize: none; /* Evita que se pueda redimensionar */
+    font-size: 1.6rem;
+}
+label {
+    display: block;
+    margin-top: 1rem;
+    color:#434;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.pedido-cliente{
+    border: 3px solid #7e1b1b;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    
+}
+.shop-table-pago th{
+    color:#666 !important;
+    margin-left: 100px !important;
+}
+
+.pedido-cliente td.amountPago{
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 500;
+}
+th.thmargin {
+    padding-left: 20px !important; /* Ajusta el valor según tus necesidades */
+  }
